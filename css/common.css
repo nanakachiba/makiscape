@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#ffffff;
+  }
+
+#wrap{
+  min-width: 1240px;
+}
+.vid-container{
+  right: 0;
+  top:0;
+  min-width: 1240px;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+  overflow: hidden;
+  background-size: cover;
+}
+.bgvid{
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#top-head {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+}
+
+
+#top-head,
+#header img {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.smaller {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+
+  margin: 0 auto;
+}
+
+.smaller .inner img {
+  height: 60px;
+  width: 80px;
+}
+
+
+#header{
+  position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100px;
+}
+
+.smaller #top-head {
+    background-color: #ffffff;
+}
+
+#logo{
+  margin-left: 20px;
+}
+
+#top-img {
+    position: relative;
+}
+#text{
+  position: absolute;
+  left: 1.6em;
+  bottom: 2em;
+  color: #FFFFFF;
+  font-size: 2.8em;
+}
+
+
+#catch-content {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 4em;
+}
+
+#makisuke{
+  width: 100%;
+}
+.top-content{
+  display: flex;
+  margin: 30px 10px 30px 10px;
+}
+.saba-box{
+  width: 380px;
+  position: relative;
+}
+#gif {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 300px;
+  max-height: 400px;
+}
+
+#mark{
+    flex: 1;
+    margin: 0 4em;
+}
+
+#twitter {
+  padding: 40px;  
+  width: 30%;
+  height: 40%;
+  float: left;
+}
+
+#comment{
+  font-family: serif;
+  float: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#panorama{
+  
+  width: 100%;
+}
+
+#flex-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 1em;
+    width: 30%;
+    height: 30%;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    color: #ffffff;
+    background-color: #000080;
+    height: 500px;
+}
+
+.footer-list {
+  float: left;
+  font-family: serif;
+}
+.label{
+  list-style: none; 
+  font-size: 25px;
+  text-align: center;
+}
+.footer-list ul{
+  font-size: 20px;
+}
+.footer-list li{
+  padding: 5px;
+}
+.info{
+  list-style: none;
+}
+
+.Copyright{
+  color: #FFFFFF;
+  background-color: #000080;
+  font-family: serif;
+  text-align: center;
+}
